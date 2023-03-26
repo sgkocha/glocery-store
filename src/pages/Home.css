@@ -1,0 +1,275 @@
+.glocery-main {
+    padding-top: 114px;
+    padding-left: 362px;
+    padding-right: 1056px;
+    padding-bottom: 142px;
+    background: url("/public/images/glocery-main.png") no-repeat;
+}
+
+.glocery-main-title {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.glocery-main-desc {
+    width: 352px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.glocery-categories {
+    margin-top: 63px;
+    margin-left: 360px;
+    margin-right: 360px;
+    
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.glocery-categories-item {
+    height: 260px;
+    padding-left: 28px;
+}
+
+.categories-item-title {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.categories-item-desc {
+
+    margin-top: 11px;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.glocery-categories-item:nth-child(1) {
+    width: 387px;
+    padding-top: 73px;
+    background: url("/public/images/category1.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(1) .categories-item-title {
+    width: 149px;
+}
+
+.glocery-categories-item:nth-child(2) {
+    width: 386px;
+    padding-top: 58px;
+    background: url("/public/images/category2.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(2) .categories-item-title {
+    width: 149px;
+}
+
+.glocery-categories-item:nth-child(2) .categories-item-desc {
+    width: 225px;
+    line-height: 150%;
+}
+
+.glocery-categories-item:nth-child(3) {
+    width: 387px;
+    padding-top: 58px;
+    background: url("/public/images/category3.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(4) {
+    width: 590px;
+    padding-top: 58px;
+    background: url("/public/images/category4.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(5) {
+    width: 590px;
+    padding-top: 58px;
+    background: url("/public/images/category5.png") no-repeat;
+}
+
+
+.glocery-categories-item:nth-child(5) .categories-item-title {
+    width: 213px;
+}
+
+.glocery-categories-item:nth-child(5) .categories-item-desc {
+    width: 213px;
+    line-height: 150%;
+}
+
+.glocery-categories-item:nth-child(6) {
+    width: 387px;
+    padding-top: 58px;
+    background: url("/public/images/category6.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(6) .categories-item-desc {
+    width: 207px;
+    line-height: 150%;
+}
+
+.glocery-categories-item:nth-child(7) {
+    width: 387px;
+    padding-top: 58px;
+    background: url("/public/images/category7.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(7) .categories-item-desc {
+    width: 207px;
+    line-height: 150%;
+}
+
+.glocery-categories-item:nth-child(8) {
+    width: 386px;
+    padding-top: 58px;
+    background: url("/public/images/category8.png") no-repeat;
+}
+
+.glocery-categories-item:nth-child(8) .categories-item-title {
+    width: 110px;
+    
+}
+
+.glocery-catalog {
+    margin-top: 57px;
+    margin-left: 244px;
+    margin-right: 244px;
+}
+
+.glocery-catalog-tabs {
+   width: fit-content;
+   margin: 24px auto;
+   gap: 6px;
+}
+
+.catalog-tabs-btn {
+    display: block;
+    width: fit-content;
+    padding: 13px 28px;
+    background: #EFF2F4;
+    border: 1px solid #EFF2F4;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #111111;
+    cursor: pointer;
+}
+
+.tabs-btn__active {
+    background-color: #FFFFFF;
+}
+
+.glocery-catalog-box {
+    margin-top: 47px;
+}
+
+.glocery-catalog-btn {
+    display: block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.glocery-catalog-content {
+    gap: 20px;
+}
+
+.glocery-questions {
+    margin-top: 100px;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 42px;
+    padding-bottom: 32px;
+    background-color: #0E2149;
+}
+
+.glocery-questions-title {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.glocery-questions-desc {
+    width: 268px;
+    margin-top: 28px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.input-txt-bl {
+    gap: 11px;
+}
+
+.input-bl input {
+    display: block;
+    width: 288px;
+    margin-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 19px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 130%;
+    color: #B8C1CA;
+
+}
+
+.input-bl input::placeholder {
+    color: #B8C1CA;
+} 
+
+.input-bl input:last-child {
+    margin-bottom: 0;
+}
+
+textarea {
+    display: block;
+    width: 288px;
+    padding-top: 15px;
+    padding-left: 19px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 130%;
+    color: #B8C1CA;
+}
+
+.checkbox-bl {
+    margin-top: 10px;
+}
+
+.checkbox-bl input {
+    display: block;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.checkbox-bl label {
+    display: block;
+    margin-left: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+

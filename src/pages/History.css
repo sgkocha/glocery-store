@@ -1,0 +1,123 @@
+.history-main {
+    margin-top: 30px;
+    margin-left: 358px;
+    margin-right: 379px;
+}
+
+.history-main-title {
+    margin-bottom: 45px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px; 
+    color: #0E2149;
+}
+
+.history-main-item {
+    margin-left: 77px;
+    margin-bottom: 18px;
+}
+
+.history-main-date {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #D5AF86;
+}
+
+.history-main-desc {
+    width: 777px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 130%;
+    color: #111111;
+}
+
+.history-main-arrow {
+    margin-left: 272px;
+    margin-bottom: 18px;
+}
+
+.store-employees {
+    margin-top: 50px;  
+    margin-left: 361px;
+    margin-right: 359px; 
+    padding-top: 10px;
+    border-top: 1px solid #EFF2F4;   
+}
+
+.store-employees-title {
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: #0E2149;
+}
+
+.store-employees-tags {
+    margin-top: 16px;
+    gap: 6px;
+}
+
+.store-employees-box {
+    margin-top: 28px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.store-employees-item, .store-reviews-item {
+    width: 285px;
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right: 8px;
+    padding-bottom: 41px;
+    border: 1px solid #EFF2F4;
+}
+
+.employees-item-name {
+    margin-top: 18px;
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0E2149;
+}
+
+.employees-item-position {
+    margin-top: 10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    line-height: 130%;
+    color: #111111;
+}
+
+.store-reviews {
+    margin-top: 50px;  
+    margin-left: 361px;
+    margin-right: 359px; 
+    padding-top: 10px;
+    border-top: 1px solid #EFF2F4;   
+}
+
+.store-reviews-title {
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: #0E2149;
+}
+
+.store-reviews-box {
+    margin-top: 18px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reviews-item-title {
+    margin-top: 23px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    line-height: 130%;
+    color: #111111;
+}

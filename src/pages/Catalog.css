@@ -1,0 +1,274 @@
+.catalog-wr {
+    margin-top: 51px;
+    margin-left: 361px;
+    margin-right: 357px;
+    gap: 20px;
+}   
+
+.catalog-filter-list, .catalog-filter-sublist  {
+    list-style-type: none;
+    
+}
+
+.catalog-filter-list {
+    width: 285px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    border: 1px solid #EFF2F4;
+}
+
+
+.catalog-filter-sublist {
+    margin-left: 11px;
+    list-style-image: url("/public/images/filter/submenu-item.png");
+}
+
+.filter-list-item {
+    margin-top: 12px;
+    padding-left: 27px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EFF2F4;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #0E2149;
+    cursor: pointer;
+}
+
+.filter-list-item:nth-child(1) {
+    background: url("/public/images/filter/filter1.png") no-repeat;
+}
+
+.filter-list-item:nth-child(2) {
+    background: url("/public/images/filter/filter2.png") no-repeat;
+}
+
+.filter-list-item:nth-child(3) {
+    background: url("/public/images/filter/filter3.png") no-repeat;
+}
+
+.filter-list-item:nth-child(4) {
+    background: url("/public/images/filter/filter4.png") no-repeat;
+}
+
+.filter-list-item:nth-child(5) {
+    background: url("/public/images/filter/filter5.png") no-repeat;
+}
+
+.filter-list-item:nth-child(6) {
+    background: url("/public/images/filter/filter6.png") no-repeat;
+}
+
+.filter-list-item:nth-child(7) {
+    background: url("/public/images/filter/filter7.png") no-repeat;
+}
+
+.filter-list-item:nth-child(8) {
+    background: url("/public/images/filter/filter8.png") no-repeat;
+}
+
+.filter-list-item:nth-child(9) {
+    background: url("/public/images/filter/filter9.png") no-repeat;
+}
+
+.filter-list-item:nth-child(10) {
+    background: url("/public/images/filter/filter10.png") no-repeat;
+}
+
+.filter-list-item:nth-child(11) {
+    background: url("/public/images/filter/filter11.png") no-repeat;
+}
+
+
+.filter-sublist-item {
+    margin-top: 12px; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 120%;
+    color: #0E2149;
+    cursor: pointer;
+}
+
+.filter-list-item:last-child {
+    border-bottom: 0;
+}
+
+.list-item__active {
+    color: #CFB08B;
+}
+
+.sublist-item__active {
+    color: #D5AF86
+}
+
+.filter-categories {
+    margin-top: 22px;
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-bottom: 37px;
+    background: #EFF2F4;
+    border: 1px solid #EFF2F4;
+}
+
+.filter-categories-title {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #0E2149;
+}
+
+.filter-categories-price {
+    margin-top: 29px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.categories-price-title, .categories-sort-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 120%;
+    color: #111111;
+}
+
+.categories-price-box {
+  margin-top: 11px;
+  gap: 1px;
+}
+
+.categories-price-min, .categories-price-max {
+    width: 125px;
+    padding-left: 17px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    background: #FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #717171;
+}
+
+.filter-categories-range {
+    margin-top: 15px;
+}
+
+.filter-categories-range input {
+    width: 252px;
+    height: 4px;
+    appearance: none;
+    background: #FFFFFF;
+}
+
+.filter-categories-sort {
+    margin-top: 40px;
+}
+
+.categories-sort-fm {
+    margin-top: 11px;
+}
+
+.categories-sort-fm div {
+    margin-bottom: 5px;
+    gap: 10px;
+}
+
+.categories-sort-fm input {
+    display: block;
+    width: 25px;
+    height: 24px;
+}
+
+.categories-sort-fm label {
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #717171;
+}
+
+.filter-categories-btn {
+    display: block;
+    margin-top: 40px;
+    width: 161px;
+    background: transparent url("/public/images/delete_icon.png") no-repeat;
+    border: 0;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    line-height: 120%;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #1D3976;
+    cursor: pointer;
+}
+
+.catalog-main-title {
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: #0E2149;
+}
+
+.catalog-main-tags {
+    width: 703px;
+    margin-top: 17px;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.main-tags-item {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid #D5AF86;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    line-height: 120%;
+    color: #0E2149;
+}
+
+.tags-item-active {
+    border: 1px solid #B8C1CA;
+    color: #717171;
+}
+
+.catalog-main-select {
+    width: 285px;
+    margin-top: 19px;
+    padding-top: 14.65px;
+    padding-bottom: 10.32px;
+    padding-left: 19px;
+    border: 1px solid #B8C1CA;
+    outline: none;
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    line-height: 130%;
+    color: #B8C1CA;
+}
+
+.catalog-main-content {
+    margin-top: 33px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.catalog-main-btn {
+    display: block;
+    width: 159px;
+    margin: 33px auto;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px dashed #0E2149;
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    color: #0E2149;
+    cursor: pointer;
+}

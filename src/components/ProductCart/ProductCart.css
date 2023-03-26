@@ -1,0 +1,124 @@
+.glocery-catalog-item {
+    width: 285px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #EFF2F4;
+}
+
+.catalog-item-info {
+    width: 42px;
+    height: 24px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background: #EB7D3F;
+    border: 1px solid #EB7D3F;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.125em;
+    color: #FFFFFF;
+}
+
+.catalog-item-title {
+    margin-top: 18px;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0E2149;
+}
+
+.catalog-item-desc {
+    width: 214px;
+    margin-top: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 130%;
+    color: #111111;
+}
+
+.catalog-item-price {
+    margin-top: 11px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0E2149;
+}
+
+.catalog-item-price span {
+    font-weight: 700;
+}
+
+.discount-bl {
+    margin-top: 8px;
+    gap: 27px;
+}
+
+.catalog-item-original {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+    color: #D5AF86;
+}
+
+.catalog-item-saving {
+    font-size: 13px;
+    line-height: 130%;
+}
+
+.item-saving-percent {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 2px;
+    font-family: 'Abhaya Libre', serif;
+    background: #D5AF86;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.item-saving-discount {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 10px;
+    border: 1px solid #EFF2F4;
+    font-family: 'Times New Roman', Times, serif;
+    color: #717171;
+}
+
+.catalog-item-actions {
+  margin-top: 25px;
+  gap: 9px;
+}
+
+.item-actions-btn {
+    display: block;
+    width: fit-content;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.item-actions-btn:nth-child(1) {
+    background: #0E2149;
+    border: 1px solid #0E2149
+}
+
+.item-actions-btn:nth-child(2) {
+    background: #D5AF86;
+    border: 1px solid #D5AF86;
+}

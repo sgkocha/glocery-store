@@ -1,0 +1,55 @@
+.footer {
+    margin-top: 44px;
+    margin-left: 32px;
+    padding-left: 328px;
+
+}
+
+.footer-title {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #0E2149;
+} 
+
+.footer-links {
+    padding-right: 426px;
+}
+
+.footer-links-item {
+    margin-bottom: 15px;
+}
+
+.footer-links-item a {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 130%;
+    text-decoration: none;
+    color: #0E2149;
+}
+
+.footer-links-box {
+    margin-top: 21px;
+}
+
+.footer-about {
+    margin-top: 41px;
+    padding-right: 322px;
+}
+
+.footer-bar {
+    margin-top: 44px;
+    padding-top: 29px;
+    padding-right: 359px;
+    border-top: 1px solid #B8C1CA;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: right;
+    color: #0E2149;
+}
+
+.footer-social {
+    gap: 12px
+}
